@@ -1,0 +1,120 @@
+.heroSection{
+    background-color: #d7faea;
+}
+
+.hero2{
+    background-color: #d7faea;
+}
+.hero4{
+    background-color: #d7faea;
+}
+.hero6 .container{
+    background-color: #198754;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.hero6 .container h1{
+    color:white;
+    margin: 20px 0px ;
+    padding-top: 50px;
+}
+.hero6 .container button{
+    margin: 0px 0px 50px 0px;
+}
+.container{
+    
+    padding: 90px 0px;
+}
+.modal-body {
+    background-color:#d7faea ;
+}
+.modal-body2{
+margin-left: 20px ;
+}
+.form-field1{
+    margin: 20px;
+}
+.form-field1 label{
+    display: block;
+}
+.form-field1 input{
+    margin-bottom:10px ; width: 60%;
+
+}
+.newAccount{
+    text-decoration: none;color: black;
+}
+.modal-body3{
+    display: none;
+}
+.form-field2{
+    margin: 20px;
+}
+.form-field2 label{
+    display: block;
+}
+.form-field2 input{
+    margin-bottom:10px ; width: 60%;
+}
+.modi{
+    display: none;
+}
+.modi1{
+    display: block;
+}
+.left{
+   padding: 90px 0px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    margin: 245px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.box{
+  
+   max-width: 700px;
+  
+  text-align: center;
+}
+.box input{
+    display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  width: 100%;
+border-radius: 15px;
+margin: 20px 0px;
+
+}
+
+.at a{
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+.at a:hover{
+    padding: 8px 10px;
+   background-color: #d7faea;
+    transition: all 0.2s ease-in-out;
+    color: white;
+   border-radius: 25px;
+}
+.c{
+    transition: all 0.3s ease-in-out;
+}
+.c:hover{
+border: solid #198754;
+transform: scale(0.9);
+}
+.im{
+   
+    transition: all 0.3s ease-in-out;
+}
+.im:hover{
+
+transform: scale(1.15);
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <link href="css/root.css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="css/ninjalogo.png" style="height: 80%; width: 80%;"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item at">
+                      <a class="nav-link active " aria-current="page" href="#">Features</a>
+                    </li>
+                    <li class="nav-item at">
+                      <a class="nav-link active " href="#">Piricing</a>
+                    </li>
+                    <li class="nav-item at">
+                      <a class="nav-link active" href="#">Services</a>
+                    </li>
+                    <li class="nav-item at">
+                      <a class="nav-link active" href="#">Partners</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-right: 10px; background-color: #198754; color: white;" >Log In </button>
+                   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Login Form</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="bc();"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="modal-body2">
+                              <form >
+                                <div class="form-field1">
+                                  <label >Email</label>
+                                  <input type="email" name="" placeholder="Enter your email" />
+                                  <label >Password</label>
+                                  <input type="password" name="" placeholder="password" />
+                              </div>
+                              </form>
+                              <hr >
+                              <a href="#" class="newAccount"  onclick="ab();">create a new account</a>
+                            </div>
+                            <div class="modal-body3 " >
+                              <form >
+                                <div class="form-field2">
+                                  <label >First Name</label>
+                                  <input type="text" name="" placeholder="First" />
+                                  <label >Second Name</label>
+                                  <input type="text" name="" placeholder="Second" />
+                                  <label >Your Email</label>
+                                  <input type="email" name="" placeholder="email" />
+                                  <label >Password</label>
+                                  <input type="password" name="" placeholder="password" />
+                                  <label >Confirm Password</label>
+                                  <input type="password" name="" placeholder="Confirm" />
+                              </div>
+                              </form>                            
+                            </div>                            
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal" onclick="bc();">Close</button>
+                            <button type="button" class="btn btn-success">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   <button class="btn btn-outline-success" type="submit">Sign Up Free</button>                  
+                </form>
+            </div>
+            </div>
+          </nav>
+          <section class="heroSection">
+            <div class="container" >
+              <div class="row">
+                <div class="col-lg-6 col-md-12  left"  >
+                    <h1>Create Stunning Email Campaigns</h1>
+                    <p>Create and launch email campaigns that captivate your customers in just a few clicks.</p>
+                    <div>
+                      <button class="btn btn-outline-success" type="submit"  style=" margin-right: 10px; background-color: #198754; color: white;">Try Now </button>
+                      <button class="btn btn-outline-success" type="submit">Get a demp</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 right" >
+                      <img src="css/back.png"/>
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <section class="hero1">
+            <div class="container">
+              <div
+                    class="bg-image"
+                      style="
+                                 background-image: url('css/hero1s.jpg');
+                                 height: 100vh;
+                                   width: 100%;
+                                  background-size: cover;
+                                   background-position: center;
+                                   overflow: hidden;">                                                                                                                                       
+                  <div class="mask d-flex align-items-center justify-content-center" style="background-color: rgba(0, 0, 0, 0.6); ">
+                    <div class="text">
+                     <h1 class="text-white mb-5  ">Reach More Customers</h1>
+                     <button type="button" class="btn btn-success btn-lg mb-4">Learn How</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section class="hero2">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                <div class="col">
+                  <div class="card c">
+                    <a href="#" style="text-decoration: none;"><img src="css/card1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                      <p class="card-text" style="color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#">learn more</a></a>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card c" style="margin-top: 100px;">
+                    <a href="#" style="text-decoration: none;"><img src="css/card2.png" class="card-img-top" alt="...">
+                    <div class="card-body">                     
+                      <p class="card-text" style="color: black;">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#">learn more</a></a>
+                    </div>                   
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card c mt-5">                   
+                    <div class="card-body">
+                      <a href="#" style="text-decoration: none;"><h5 class="card-title">The source for proven engaging email for compaigns</h5>
+                      <p class="card-text" style="color: black;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p></a>
+                    </div>                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="hero3">
+            <div class="container">
+              <div class="row  row-cols-1 row-cols-md-3  ">
+                 <div class="col d-flex align-items-center justify-content-center im" >
+                    <div class="bg-image"
+                       style="    background-image: url('css/img1.png');
+                       height: 30vh;
+                       width: 80%;
+                       background-size: cover;
+                       background-position: center;
+                       color: white;  margin: 20px 0px;">     
+                       <h2>Frankie</h2>
+                       <p>member since 2016</p>
+                    </div>
+                 </div>
+                 <div class="col d-flex align-items-center justify-content-center im" >
+                    <div class="bg-image ml-md-5"
+                      style="background-image: url('css/img2.png');
+                      height: 30vh;
+                      width: 80%;
+                      background-size: cover;
+                      background-position: center;
+                      color: white; margin: 20px 0px;">     
+                      <h2>Camile</h2>
+                      <p>member since 2012</p>
+                   </div>
+                  </div>
+                  <div class="col d-flex align-items-center justify-content-center im ">
+                    <div class="bg-image"
+                      style="background-image: url('css/img3.png');
+                      height: 30vh;
+                      width: 80%;
+                      background-size: cover;
+                      background-position: center;
+                      color: white;
+                      margin: 20px 0px;">      
+                      <h2>Elayne</h2>
+                      <p>member since 2018</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="hero4">
+              <div class="container d-flex align-items-center justify-content-center">
+                <div class="box ">
+                  <h1 style="margin-bottom:30px;">Learn how other are reaching thier audiance easiar then other before</h1>
+                  <input type="" name="" placeholder="Enter your email" class="me-md-5" style="margin-bottom:30px;"/>
+                  <button type="button" class="btn btn-success btn-lg" style="margin-bottom:30px;">Join yor list</button>
+                  <p>Thanks! Receive Email</p>  
+                </div>   
+                </div>
+              </div>
+            </section>
+            <section class="hero5">
+              <div class="container d-flex align-items-center justify-content-center">
+                <div class="box ">
+                  <h1>All Best Brands<br> already use us</h1>
+                  <div class="row mt-5 d-flex align-items-center justify-content-center">
+                    <div class="col-md-2 col-6">
+                      <img src="css/i1.png" style="margin-right: 35px;"/>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <img src="css/i2.png" style="margin-right: 35px;"/>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <img src="css/i3.png " style="margin-right: 35px;"/>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <img src="css/i4.png " style="margin-right: 35px;"/>
+                    </div>
+                    <div class="col-md-2 col-6">
+                      <img src="css/i5.png" style="margin-right: 35px;"/>
+                    </div>
+                  </div>  
+                </div>    
+                </div>
+              </div>
+            </section>
+            <section class="hero6">
+              <div class="container">
+                <h1>Get Started Today</h1>
+                <button type="button" class="btn btn-light">Pick a plan</button>
+              </div>
+            </section>
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2 me-md-5">
+                    <img src="css/ninjalogo.png" style="margin: 20px 0px;"/>
+                  </div>
+                  <div class="col-md-2 col-6">
+                    <h5>FEATURES</h5>
+                    <ul>
+                      <li>pricing </li>
+                      <li>services</li>
+                      <li> PARTNERS</li>          
+                    </ul>                
+                  </div>
+                  <div class="col-md-2 col-6">
+                    <h5>ABOUT</h5>
+                    <ul>
+                      <li>Tutorial</li>
+                      <li>Resouces</li>
+                      <li>Help Center</li>
+                      <li>Templates</li>
+                      <li>case studies</li>
+                    </ul>        
+                  </div>
+                  <div class="col-md-2 col-6">
+                    <h5>MEDIUM</h5>
+                    <ul>
+                      <li>Twitter</li>
+                      <li>facebook</li>
+                      <li>instagram</li>
+                      <li>linkedln</li>
+                    </ul>
+             </div>
+                  <div class="col-md-2 col-6">
+                    <h5>CONTACT</h5>
+                    <ul>
+                      <li> us</li>
+                      <li>Slack</li>
+                      <li>Jobs</li>
+                    </ul>
+                  </div>
+                </div>
+                <hr style="border: 2px solid black ;">
+                <div class="row">
+                  <div class="col-md-6 col-12">
+                    <p>NinjaMail is a sample project for Quest AI. © 2019 Quest AI, All rights reserved.</p>
+                  </div>
+                  <div class="col-md-3 col-12">
+                    <p>Terms & Conditions</p>
+                  </div>
+                  <div class="col-md-3 col-12">
+                    <p>Privacy Policy</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <link src="script.js"/>
+    </body>
+</html>
